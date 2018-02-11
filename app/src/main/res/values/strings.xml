@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WiproTask</string>
+    <string name="loadingText">Loading.</string>
+</resources>
