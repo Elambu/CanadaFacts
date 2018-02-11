@@ -1,4 +1,4 @@
-package com.example.salmanasik.wiprotask.apiclient;
+package com.task.facts.apiclient;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -18,7 +18,13 @@ public class RetrofitApiClient {
     private static final String BASE_URL = "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/";
     private static Retrofit retrofit = null;
 
-
+    /**
+     * Getting Retrofit api client using base url
+     * Gson is used for converter factory
+     * OkHttpclient is used for setting response timeout
+     *
+     * @return
+     */
     public static Retrofit getClient() {
         Gson gson = new GsonBuilder().setLenient().create();
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder()

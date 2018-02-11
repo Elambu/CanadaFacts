@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">WiproTask</string>
+    <string name="app_name">CanadaFacts</string>
     <string name="loadingText">Loading.</string>
+    <string name="alert_ok">Ok</string>
+    <string name="retry">Retry</string>
+    <string name="no_connection">No internet connection !</string>
 </resources>

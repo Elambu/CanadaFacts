@@ -6,9 +6,9 @@
     android:id="@+id/pullDownRefresh"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.salmanasik.wiprotask.activity.MainActivity">
+    tools:context=".activity.FactsActivity">
 
-    <android.support.v7.widget.RecyclerView
+    <com.task.facts.utils.FactsShimmerRecycler
         android:id="@+id/my_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,13 +1,8 @@
-package com.example.salmanasik.wiprotask.model;
+package com.task.facts.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
-/**
- * Created by SalmanAsik on 11-02-2018.
- */
 
 public class Row {
 

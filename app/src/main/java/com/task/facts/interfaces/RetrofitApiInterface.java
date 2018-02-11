@@ -1,13 +1,11 @@
-package com.example.salmanasik.wiprotask.interfaces;
+package com.task.facts.interfaces;
 
-import com.example.salmanasik.wiprotask.model.FactsResponse;
+import com.task.facts.model.FactsResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-/**
- * Created by SalmanAsik on 11-02-2018.
- */
+
 
 public interface RetrofitApiInterface {
 
